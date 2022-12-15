@@ -1,0 +1,60 @@
+#title,
+#description {
+    width: 100%;
+}
+
+#play {
+    float: left;
+}
+
+#stop {
+    float: right;
+}
+
+#a {
+    color: #ff0000;
+}
+
+#b {
+    color: #ff8000;
+}
+
+#c {
+    color: #ffff00;
+}
+
+#d {
+    color: #80ff00;
+}
+
+#e {
+    color: #00ff00;
+}
+
+#f {
+    color: #00ff80;
+}
+
+#g {
+    color: #00ffff;
+}
+
+#h {
+    color: #0080ff;
+}
+
+#i {
+    color: #0000ff;
+}
+
+#j {
+    color: #8000ff;
+}
+
+#k {
+    color: #ff00ff;
+}
+
+#l {
+    color: #ff0080;
+}

@@ -1,0 +1,43 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"
+        integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body background="speakers.png">
+
+    <div class="btn btn-warning" id="title">
+        <h1>
+            <span id="a">D</span><span id="b">J</span>
+            <span id="c">W</span><span id="d">E</span><span id="e">B</span>
+            <span id="f">A</span><span id="g">P</span><span id="h">P</span>
+        </h1>
+    </div>
+
+    <br>
+
+    <div class="btn btn-success" id="description">
+        Get your left hand wrist in front of the camera to play song 1. Get your left hand wrist in front of the
+        camera to play song 2.
+        <br>
+        Your wrists can be detected clearly when your entire arm is visible.
+    </div>
+
+    <br>
+    <br>
+
+    <button onclick="play()" id="play">
+        Play song
+    </button>
+    <button onclick="stop()" id="stop">
+        Stop song
+    </button>
+</body>
